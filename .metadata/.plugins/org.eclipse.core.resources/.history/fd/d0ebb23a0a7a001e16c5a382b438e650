@@ -44,8 +44,8 @@ public class BaseClass  {
 	}
 	
 	public String randomAlphaNumeric() {
-		String st=RandomStringUtils.randomAlphabetic(4);
-		String num=RandomStringUtils.random(3);
+		String st=RandomStringUtils.randomAlphabetic(2);
+		String num=RandomStringUtils.random(2);
 		return (st+"#"+num);
 		
 	}
